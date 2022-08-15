@@ -1,16 +1,12 @@
 import express from "express";
 import articleController from "../../controllers/articleController.js";
 const router = express.Router();
-process.setMaxListeners(0)
+
 router
-    .get("/", articleController.getAllArticles(req, res))
-
-    .get("/:articleId", articleController.getArticle(req, res))
-
-    .post("/:articleId", articleController.createArticle(req, res))
-
-    .patch("/:articleId", articleController.updateArticle(req,res))
-
-    .delete("/:articleId", articleController.deleteArticle(req, res))
+    .get("/", articleController.getAllArticles)
+    .get("/:articleId", articleController.getArticle)
+    .post("/", articleController.createArticle)
+    .patch("/:articleId", articleController.updateArticle)
+    .delete("/:articleId", articleController.deleteArticle)
 
 export default router;

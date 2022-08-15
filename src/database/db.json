@@ -1,0 +1,44 @@
+{
+  "inventory": [
+    {
+      "art_id": "1",
+      "name": "leg",
+      "stock": "12"
+    },
+    {
+      "art_id": "2",
+      "name": "screw",
+      "stock": "17"
+    },
+    {
+      "art_id": "3",
+      "name": "seat",
+      "stock": "2"
+    },
+    {
+      "art_id": "4",
+      "name": "table top",
+      "stock": "1"
+    },
+    {
+      "art_id": "5",
+      "name": "carpet",
+      "stock": "3"
+    },
+    {
+      "art_id": "6",
+      "name": "lamp",
+      "stock": "2"
+    },
+    {
+      "art_id": "7",
+      "name": "plate",
+      "stock": "14"
+    },
+    {
+      "name": "dardo",
+      "stock": 4,
+      "id": "f771fde7-c2d3-4657-8e82-3e02fc36dc2d"
+    }
+  ]
+}
