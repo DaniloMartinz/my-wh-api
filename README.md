@@ -21,7 +21,7 @@ Using the
   Clone the project repo and install the dependencies:
 
 ```console
-$ git clone https://github.com/DaniloMartinz/my-wh-api.git --depth 1
+$ git clone https://github.com/DaniloMartinz/my-wh-api.git
 $ cd my-wh-api
 $ npm install
 ```
